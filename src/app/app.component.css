@@ -1,0 +1,28 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.sign-up-button{
+    margin-left: 10px;
+    background-color: #0F3333;
+}
+
+.log-in-button{
+    background-color: #0F3333;
+}
+
+.mat-toolbar{
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ z-index: 100;
+ height: 50px;
+ background-color: rgb(10, 10, 10);
+}
+
+.side-panel-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
