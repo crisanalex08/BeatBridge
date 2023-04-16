@@ -18,6 +18,7 @@ import { SidePanelComponent } from './components/side-panel/side-panel.component
 import { SongViewComponent } from './components/song-view/song-view.component';
 import { MainComponentComponent } from './components/main-component/main-component.component';
 import { SongTileComponent } from './components/song-tile/song-tile.component';
+import { YoutubePlayerComponent } from './components/youtube-player-component/youtube-player-component.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SongTileComponent } from './components/song-tile/song-tile.component';
     SidePanelComponent,
     SongViewComponent,
     MainComponentComponent,
-    SongTileComponent
+    SongTileComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     BrowserModule,
