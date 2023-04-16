@@ -15,13 +15,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidePanelComponent } from './components/side-panel/side-panel.component';
-import { SongViewComponent } from './song-view/song-view.component';
+import { SongViewComponent } from './components/song-view/song-view.component';
+import { MainComponentComponent } from './components/main-component/main-component.component';
+import { SongTileComponent } from './components/song-tile/song-tile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidePanelComponent,
-    SongViewComponent
+    SongViewComponent,
+    MainComponentComponent,
+    SongTileComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.library{
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    bottom: 0;
+}
+
+.recomended{
+    position: relative;
+}
+
+.tile{
+    margin: 30px;
+}
